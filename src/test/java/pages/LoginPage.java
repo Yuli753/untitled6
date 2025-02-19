@@ -12,10 +12,10 @@ public class LoginPage {
     }
 
     // Lokator elemen
-    private By usernameField = By.id("user-name");
-    private By passwordField = By.id("password");
-    private By loginButton = By.id("login-button");
-    private By errorMessage = By.cssSelector("h3[data-test='error']");
+    private final By usernameField = By.id("user-name");
+    private final By passwordField = By.id("password");
+    private final By loginButton = By.id("login-button");
+    private final By errorMessage = By.cssSelector("h3[data-test='error']");
 
     // Metode interaksi dengan elemen
     public void enterUsername(String username) {
